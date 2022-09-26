@@ -1,11 +1,21 @@
-# snake2d-opp
-Простая игра змейка на JavaScript(без библиотек)
 
-# Как использовать
-- npm install
-- http-server
+![alt text](images/snakeOG.png "preview png")
 
-# Дополнительно
-- Процесс создания [тут](https://youtu.be/yq4x4zSSz70)
+### Implementation of the Snake game in JavaScript.
+⚠ So far, only for desktop gameplay (⚆_⚆)
 
-> ![Screen 1](screen/welcome.png)
+You can play here:
+https://buninman.github.io/Snake/
+
+Code analysis with detailed explanations here:
+https://blog.buninman.ru/snake (ru)
+
+# What's new?
+1. New design of the playing field
+2. New high score counter
+3. Added the ability to change the speed of the snake. PgUp, PgDwn and 1-8 keys 
+4. Created the GodMode, the snake can't eat itself. G button
+5. Snake Control Hint
+6. Now you can't turn 180° and bite yourself. The snake doesn't die from accidental pressing
+
+⚠ To work, you need an http-server. I used Live Server Extension in Visual Studio Code

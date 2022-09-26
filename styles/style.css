@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+	font-family: 'Fira Mono', monospace;
+}
+
+#game {
+	background: #232323;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#game-canvas {
+	display: block;
+	border-radius: 5px;	
+}
+
+.game-header {
+	margin-bottom: 15px;
+	width: 708px;
+	height: 70px;
+	background: #275B52;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.game-score {
+	height: 50px;
+	width: 236px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.score-text {
+	font-size: 2vmin;
+	color: #EBEBEB;
+}
+
+.score-count {
+	font-size: 3vmin;
+	padding-left: 6px;
+	color: #EBEBEB;
+	font-weight: bold;
+}
+
+.canvas-wrapper {
+	background-color: #333333;
+	border-radius: 10px;
+	border: 10px solid #333333;
+	background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='1sd'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23232323'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.game-footer {
+	padding-top: 1vmin;
+	padding-bottom: 1vmin;
+	display: flex;
+	justify-content: space-between;
+}
+
+.keys-conf {
+	width: 708px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2vmin;
+	color: #797979;
+	font-weight: regular;
+}
